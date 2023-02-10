@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ListTest</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="avatar">Аватар</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="name">Имя</string>
+    <string name="family">Фамилия</string>
+    <string name="name2">Отчество</string>
+    <string name="done">ГОТОВО</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="textview">TextView</string>
+    <string-array name="lst">
+        <item>Один</item>
+        <item>Два</item>
+        <item>Три</item>
+        <item>Четыре</item>
+    </string-array>
+</resources>
