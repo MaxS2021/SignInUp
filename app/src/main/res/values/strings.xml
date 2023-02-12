@@ -7,12 +7,10 @@
     <string name="password">Пароль</string>
     <string name="name">Имя</string>
     <string name="family">Фамилия</string>
-    <string name="name2">Отчество</string>
-    <string name="done">ГОТОВО</string>
-    <string name="todo">TODO</string>
-    <string name="todo1">TODO</string>
+    <string name="name2">E-Mail</string>
     <string name="textview">TextView</string>
-    <string name="todo2">TODO</string>
+    <string name="done">ГОТОВО</string>
+    <string name="mainpict">MainPict</string>
     <string-array name="lst">
         <item>Один</item>
         <item>Два</item>
