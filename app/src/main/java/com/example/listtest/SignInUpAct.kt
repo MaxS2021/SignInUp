@@ -40,9 +40,11 @@ class SignInUpAct : AppCompatActivity() {
             intent.putExtra(Constance.FAMILY, bindingClass.edName2.text.toString())
             intent.putExtra(Constance.EMAIL, bindingClass.edName3.text.toString())
             if (bindingClass.imAvatar.isVisible) intent.putExtra(Constance.AVATAR_ID, R.drawable.max_encoder)
+            intent.putExtra(Constance.SIGN_STATE, Constance.SIGN_UP_STATE)
             setResult(RESULT_OK, intent)
             finish()
         } else if (signState == Constance.SIGN_IN_STATE) {
+            intent.putExtra(Constance.SIGN_STATE, Constance.SIGN_IN_STATE)
             intent.putExtra(Constance.LOGIN, bindingClass.efLogin.text.toString())
             intent.putExtra(Constance.PASSWORD, bindingClass.edPassword.text.toString())
             setResult(RESULT_OK, intent)
